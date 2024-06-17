@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#menusuperior {
+    background-image: url("/styles/imgs/background-superior.svg");
+    background-size: cover;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+#menuinformacional {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #EAECE5;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: center;
+}
+
+#video {
+    margin: 50px 50px 50px 0px;
+}
+
+#h1-secaovideo {
+    margin-top: 70px;
+    color: #247BA0;
+}
+
+.p-secaovideo {
+    margin-top: 30px;
+    color: #383838;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel {
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+
+}
+
+#div-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: center;
+}
+
+.cards {
+    margin-left: 50px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    margin: 30px;
+    color: #383838;
+    text-align: center;
+}
+
+#form-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-formulario {
+    background-color: #EAECE5;
+    margin: 20px;
+    height: 50px;
+    width: 330px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#botao-formulario {
+    margin: 20px;
+    background-color: #247BA0;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#botao-formulario:hover {
+    background-color: #318fb8;
+    transition-duration: 0.8s;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+}
